@@ -1,0 +1,39 @@
+[
+    {
+      "id": "tolkien-alley",
+      "title": "Tolkien Alleyway (Minas Tirith)",
+      "universe": "Tolkien",
+      "size": "10×24×18 cm",
+      "status": "Prototype",
+      "tags": ["stone", "arches", "LED", "PLA"],
+      "description": "White-stone alley with lantern glow and Gondor banner.",
+      "long": "A narrow alleyway of Minas Tirith: white stone, worn steps, and warm lantern light hidden behind the arch.",
+      "materials": ["PLA (white)", "Foam board 5mm", "Acrylics", "Warm LED strip", "Mini toggle switch"],
+      "images": ["images/tolkien-1.jpg"],
+      "docs": "classic/tolkien/README.md"
+    },
+    {
+      "id": "potter-diagon",
+      "title": "Diagon Alley Slice",
+      "universe": "Harry Potter",
+      "size": "10×24×18 cm",
+      "status": "Concept",
+      "tags": ["brick", "shopfront", "signage"],
+      "description": "Shopfront slice with crooked signage and window glow.",
+      "materials": ["PLA", "Cardstock signs", "LED tea light"],
+      "images": ["images/potter-1.jpg"],
+      "docs": "classic/potter/README.md"
+    },
+    {
+      "id": "readiculous-coffee",
+      "title": "Readiculous: Tiny Coffee Nook",
+      "universe": "Original",
+      "size": "10×24×18 cm",
+      "status": "Finished",
+      "tags": ["humor", "neon", "poster"],
+      "description": "A tongue-in-cheek café nook: espresso bar between your books.",
+      "materials": ["PLA", "Balsa wood", "LED strip"],
+      "images": ["images/readiculous-1.jpg"],
+      "docs": "readiculous/coffee-shop/README.md"
+    }
+  ]

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Shelfscapes — Book Nook Builds</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Shelfscapes: a portfolio of miniature book nooks — design, CAD, builds, and assembly notes." />
+</head>
+<body>
+  <header class="wrap head">
+    <h1>Shelfscapes</h1>
+    <p class="sub">Miniature book-nook dioramas — design, CAD, and build logs.</p>
+  </header>
+
+  <section class="wrap toolbar" aria-label="Filters">
+    <label>
+      Universe
+      <select id="filter-universe">
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="grow">
+      Search tags
+      <input id="filter-search" type="search" placeholder="stone, LED, Tolkien…" />
+    </label>
+  </section>
+
+  <main id="grid" class="wrap grid" aria-live="polite"></main>
+
+  <!-- Modal -->
+  <dialog id="modal">
+    <article id="modal-content"></article>
+    <form method="dialog" class="modal-actions">
+      <button>Close</button>
+    </form>
+  </dialog>
+
+  <footer class="wrap foot">
+    <small>© <span id="year"></span> Shelfscapes • Built with HTML/CSS/JS</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
